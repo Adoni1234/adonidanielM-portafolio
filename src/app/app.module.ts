@@ -7,7 +7,8 @@ import { layoutPage } from './header/layaut';
 
 import { AboutComponent } from './components/about.component';
 import { ExperienceComponent } from './components/experience';
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { ProjectComponent } from './components/Project.component';
+
 
 @NgModule({
   declarations: [
@@ -15,12 +16,12 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     layoutPage,
 
     AboutComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AngularFontAwesomeModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
