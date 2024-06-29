@@ -17,14 +17,14 @@ import { Component } from "@angular/core";
                <div class="container mx-auto p-4">
                 <div class="grid grid-cols-2 gap-4">
                  <div class="col-span-1">
-                     <h2 class="text-lg text-white mb-2">TypeScript</h2>
-                     <h2 class="text-lg text-white mb-2">C# (.NET)</h2>
-                     <h2 class="text-lg text-white mb-2">Angular</h2>
+                     <h2 class="text-lg text-white mb-2"><i class="fa-solid fa-code text-sm"></i> TypeScript</h2>
+                     <h2 class="text-lg text-white mb-2"><i class="fa-solid fa-code text-sm"></i> C# (.NET)</h2>
+                     <h2 class="text-lg text-white mb-2"><i class="fa-solid fa-code text-sm"></i> Angular</h2>
                  </div>
                  <div class="col-span-1">
-                    <h2 class="text-lg text-white mb-2">React</h2>
-                    <h2 class="text-lg text-white mb-2">JavaScript</h2>
-                    <h2 class="text-lg text-white mb-2">PHP</h2>
+                    <h2 class="text-lg text-white mb-2"><i class="fa-solid fa-code text-sm"></i> React</h2>
+                    <h2 class="text-lg text-white mb-2"><i class="fa-solid fa-code text-sm"></i> JavaScript</h2>
+                    <h2 class="text-lg text-white mb-2"><i class="fa-solid fa-code text-sm"></i> PHP</h2>
                 </div>
                  </div>
               </div>
