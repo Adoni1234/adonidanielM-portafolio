@@ -8,7 +8,6 @@ import { layoutPage } from './header/layaut';
 import { AboutComponent } from './components/about.component';
 import { ExperienceComponent } from './components/experience';
 import { ProjectComponent } from './components/Project.component';
-import { ContactComponent } from './components/Contact.component';
 
 
 @NgModule({
@@ -18,8 +17,7 @@ import { ContactComponent } from './components/Contact.component';
 
     AboutComponent,
     ExperienceComponent,
-    ProjectComponent,
-    ContactComponent
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

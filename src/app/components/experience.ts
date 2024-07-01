@@ -12,14 +12,13 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
       <div class="flex">
         <div class=" mr-8 border-l-2  border-[#303C55]">
-        <ul class="mt-4 ml-4 list-none p-0">
-         <li><a (click)="Experience('inteel')" class="text-[#8892b0] hover:text-[#62F9D6] text-md mb-5 block text-left">Politecnico el Ave Maria</a></li>
-         <li><a (click)="Experience('')" class="text-[#8892b0] hover:text-[#62F9D6] text-md mb-5 block text-left">Transneg SRL</a></li>
-         <li><a (click)="Experience('')" class="text-[#8892b0] hover:text-[#62F9D6] text-md mb-5 block text-left">Tema 3</a></li>
-         <li><a (click)="Experience('')" class="text-[#8892b0] hover:text-[#62F9D6] text-md mb-5 block text-left">Tema 4</a></li>
-        </ul>
+            <ul class="mt-4 space-y-5 ml-4">
+                <li><a (click)="Experience('inteel')" class=" text-[#8892b0] hover:text-[#62F9D6] text-md mb-5">Tema 1</a></li>
+                <li><a (click)="Experience('')" class="text-[#8892b0] hover:text-[#62F9D6] text-md mb-5">Tema 2</a></li>
+                <li><a (click)="Experience('')" class="text-[#8892b0] hover:text-[#62F9D6] text-md mb-5">Tema 3</a></li>
+                <li><a (click)="Experience('')" class="text-[#8892b0] hover:text-[#62F9D6] text-md mb-5">Tema 4</a></li>
+            </ul>
         </div>
-
          <div class="bg-transparent gap-2">
             <div class="">
                 <div class="flex ">
@@ -36,18 +35,12 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 })
 export class ExperienceComponent {
       texto : String  = "";
-      texto_3 : String  = "";
-      texto_4 : String  = "";
-      texto_5 : String  = "";
 
     Experience(options : string){
         
         switch(options) {
         case 'inteel' :
-           this. texto = `01. Lider de proyecto`
-           this. texto_3 = `Encargado de mantenimiento de plataforma de calificaciones `
-           this. texto_4 = `01. Lider de proyecto`
-           this. texto_5 = `01. Lider de proyecto`
+           this. texto = `01. Implementacion de mejoras continuas, trabajando en frontend y backend.`
             break;
         case '' :
             this.texto = ''
