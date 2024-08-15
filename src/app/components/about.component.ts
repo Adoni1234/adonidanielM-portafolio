@@ -8,10 +8,14 @@ import { Component } from "@angular/core";
         <div class="flex"> 
             <div>
               <p class="text-[#6390B0]">
-                 Tengo 
-                 <span class="text-white"> 1 años de experiencia </span> en desarrollando sistemas en Angular y c# .Net <br>
-                 Mi principal enfoque es implementar nuevas soluciones para  <br> satisfacer diversas necesidades. Además, tengo experiencia  <br> en trabajar con tecnologías de transacciones, <br>  especialmente la implementación con CardNet. Mi objetivo es <br> utilizar mis habilidades y experiencia  para crear <br> soluciones innovadoras y eficientes que impulsen el 
-                 <br> éxito de mis clientes y proyectos.
+
+
+                 <span class="text-white"> Soy desarrollador de software </span>   con experiencia en <br> administración de bases de datos en  SQL Server y MySQL, 
+                 donde he estado estudiando <br> activamente durante los últimos 2 años para mejorar mis habilidades 
+                 en la gestión de <br> datos. Además, tengo sólidos conocimientos en C# y en lenguajes de frontend 
+                 como <br> TypeScript y JavaScript, trabajando con frameworks como Angular, Next.js y React. <br>
+                 Actualmente, estoy ampliando mis conocimientos en el ITLA, donde estudio la carrera<br> de Software, 
+                 combinando mi formación académica con experiencia práctica en el desarrollo de aplicaciones y sistemas.
                </p>
 
                <div class="container mx-auto p-4">
