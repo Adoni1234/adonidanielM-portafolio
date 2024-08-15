@@ -25,7 +25,7 @@ import { ContactComponent } from './components/Contact.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ProjectComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
