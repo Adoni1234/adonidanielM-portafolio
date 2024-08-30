@@ -30,6 +30,9 @@ import { Component } from "@angular/core";
                             <h2 class="text-lg text-white mb-2">
                                 <i class="fa-solid fa-code text-sm"></i> Angular
                             </h2>
+                            <h2 class="text-lg text-white mb-2">
+                                <i class="fa-solid fa-code text-sm"></i> React Native
+                            </h2>
                         </div>
                         <div>
                             <h2 class="text-lg text-white mb-2">
@@ -40,6 +43,9 @@ import { Component } from "@angular/core";
                             </h2>
                             <h2 class="text-lg text-white mb-2">
                                 <i class="fa-solid fa-code text-sm"></i> PHP
+                            </h2>
+                            <h2 class="text-lg text-white mb-2">
+                                <i class="fa-solid fa-code text-sm"></i> Next js
                             </h2>
                         </div>
                     </div>
