@@ -11,24 +11,58 @@ import { Component, HostListener } from "@angular/core";
 
   <div class="relative mb-[5rem] mr[10rem]">
     <img class="w-6/12" src="assets/img/teatro.png" alt="Imagen del teatro">
-    <div class="absolute top-1/2 transform -translate-y-1/2 left-[40%] bg-[#112240] h-[75%] w-[50%] lg:w-[50%] p-5">
-      <h2 class="text-[#CCD6F6] text-xl mb-4">Teatro Nacional (Boleteria)</h2>
-      <p class="text-[#6390B0]  text-sm md:text-sm lg:text-sm xl:text-2xl" [ngStyle]="{'font-size': resoution_display, 'line-height' : resolution_display_height}">
-      El sistema de boletería para el Teatro Nacional desarrollará una solución digital personalizada para la venta de entradas a eventos. Incluirá módulos para la venta en línea a través de un portal web transaccional y la opción de boletas físicas, permitiendo a la administración y producción un control total de las ventas.      </p>
-      <p class="text-white text-md text-end  mt-4">Angular, TypeScript, Angular Material, RxJS</p>
-    </div>
+     <div class="absolute top-1/2 transform -translate-y-1/2 left-[40%]  h-auto w-[50%] lg:w-[50%]">
+        <div class="bg-[#112240]  p-5">
+          <h2 class="text-[#CCD6F6] text-xl mb-4">Teatro Nacional (Boleteria)</h2>
+          <p class="text-[#6390B0]  text-sm md:text-sm lg:text-sm xl:text-2xl" [ngStyle]="{'font-size': resoution_display, 'line-height' : resolution_display_height}">
+            El sistema de boletería para el Teatro Nacional desarrollará una solución digital personalizada para la venta de entradas a eventos. Incluirá módulos para la venta en línea a través de un portal web transaccional y la opción de boletas físicas, permitiendo a la administración y producción un control total de las ventas.     
+            <a class="text-blue-500 " href="https://boleteria.com.do/">Link Page</a>
+           </p>
+          </div>
+          <p class="text-white text-md text-end font-bold mt-1">Angular, TypeScript, Angular Material, RxJS</p>
+      </div>
   </div>
 
   <div class="relative mb-[5rem] flex justify-end  mr-[15%] ">
     <img class="w-6/12" src="assets/img/puncher.png" alt="Imagen del puncher">
-    <div class="absolute top-1/2 transform -translate-y-1/2 right-[40%] bg-[#112240] h-[85%] w-[80%] lg:w-[70%] p-5">
-      <h2 class="text-[#CCD6F6] text-xl mb-4">Adm. de Poncheo</h2>
-      <p ngClass="text-[#6390B0] text-sm md:text-md xl:text-sm" [ngStyle]="{'font-size': resoution_display, 'line-height' : resolution_display_height}">
-      Adm Poncheo es una aplicación web diseñada para registrar la asistencia de empleados que trabajan en empresas externas. Su principal función es consolidar la información de los empleados que se encuentran en diferentes empresas. La aplicación permite agrupar a los empleados por empresa, proporcionando así una solución interna eficiente para la gestión de asistencia.      </p>
-      <p class="text-white text-md mt-4 ">React, Tailwind CSS, C# .Net, JavaScript, RxJS</p>
+    
+    <div class="absolute top-1/2 transform -translate-y-1/2 right-[40%]  w-[80%] lg:w-[70%]">
+      <div class=" bg-[#112240] h-auto p-5">
+        <h2 class="text-[#CCD6F6] text-xl mb-4">Adm. de Poncheo</h2>
+        <p ngClass="text-[#6390B0] text-sm md:text-md xl:text-sm" [ngStyle]="{'font-size': resoution_display, 'line-height' : resolution_display_height}">
+        Adm Poncheo es una aplicación web diseñada para registrar la asistencia de empleados que trabajan en empresas externas. Su principal función es consolidar la información de los empleados que se encuentran en diferentes empresas. La aplicación permite agrupar a los empleados por empresa, proporcionando así una solución interna eficiente para la gestión de asistencia.    
+       <a class="text-blue-500 " href="https://puncher-assitan-tng.vercel.app/">Link Page</a>
+      </p>
+      </div>
+      <p class="text-white text-md mt-1 font-bold ">React, Tailwind CSS, C# .Net, JavaScript, RxJS</p>
     </div>
   </div>
 
+  <div class="relative mb-[5rem] mr-[10rem]"> 
+   <div class="relative w-[20%] h-2/3 overflow-hidden ml-[15%] rounded-xl">
+     <div 
+       class="carousel flex transition-transform duration-700 ease-in-out" 
+       [ngStyle]="{'transform': 'translateX(' + translateX + '%)'}"
+       style="width: 100%;" 
+     >
+       <img class="w-62 h-54 object-cover  flex-none" src="assets/img/orbining-react-native.png" alt="Imagen del teatro">
+       <img class="w-62 h-54 object-cover  flex-none" src="assets/img/login-react-native.png" alt="Imagen del teatro">
+       <img class="w-62 h-54 object-cover  flex-none" src="assets/img/home-react-native.png" alt="Imagen del teatro">
+       <img class="w-62 h-54 object-cover  flex-none" src="assets/img/cart-react-native.png" alt="Imagen del teatro">
+     </div>
+   </div>
+   
+   <div class="absolute top-1/2 transform -translate-y-1/2 left-[40%]  w-[60%] lg:w-[60%] p-5">
+      <div  class="h-auto bg-[#112240]  p-5">
+         <h2 class="text-[#CCD6F6] text-xl mb-4">App Courses (Aprendizaje)</h2>
+           <p class="text-[#6390B0]  text-sm md:text-sm lg:text-md xl:text-2xl" [ngStyle]="{'font-size': resoution_display, 'line-height' : resolution_display_height}">
+           Esta aplicación, desarrollada como parte de mi aprendizaje en React Native, ofrece una experiencia intuitiva y atractiva para los usuarios. A través de esta app, he aplicado conceptos fundamentales de React Native, como la gestión de estado, la navegación entre pantallas y el uso de componentes reutilizables. Este proyecto no solo me ha permitido mejorar mis habilidades técnicas, sino que también me ha enseñado sobre el diseño de interfaces y la optimización del rendimiento en aplicaciones móviles.
+           <a class="text-blue-500 " href="https://drive.google.com/drive/folders/15Z51P83Vy4fNR9BnL0iwoN3o5oxbagMY?usp=sharing">Link App (Dowloand)</a>
+          </p>
+         </div>
+         <p class="text-white text-md text-end font-bold">React Natice, JavaScript, Tailwind CSS</p>
+   </div>
+ </div>
 </div>
 
 
@@ -42,6 +76,7 @@ export class ProjectComponent{
   
   ngOnInit(): void {
     this.updateResolutionMessage();
+    this.startCarousel();
   }
   
   @HostListener('window:resize', ['$event'])
@@ -67,6 +102,23 @@ export class ProjectComponent{
                                          : (width >= 1920 && width <= 3840)? '1.90rem'
                                           : undefined
      
+  }
+
+  translateX: number = 0; 
+  currentSlide: number = 0; 
+  totalSlides: number = 4; 
+  intervalId: any;
+
+
+  ngOnDestroy(): void {
+    clearInterval(this.intervalId); 
+  }
+
+  startCarousel(): void {
+    this.intervalId = setInterval(() => {
+      this.currentSlide = (this.currentSlide + 1) % this.totalSlides; 
+      this.translateX = -this.currentSlide * 100; 
+    }, 3000); 
   }
 
 }
