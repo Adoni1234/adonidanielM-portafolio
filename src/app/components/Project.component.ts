@@ -60,7 +60,7 @@ import { Component, HostListener } from "@angular/core";
            <a class="text-blue-500 " href="https://drive.google.com/drive/folders/15Z51P83Vy4fNR9BnL0iwoN3o5oxbagMY?usp=sharing">Link App (Dowloand)</a>
           </p>
          </div>
-         <p class="text-white text-md text-end font-bold">React Natice, JavaScript, Tailwind CSS</p>
+         <p class="text-white text-md text-end font-bold">React Native, JavaScript, Tailwind CSS</p>
    </div>
  </div>
 </div>
