@@ -85,10 +85,9 @@ import { Component, HostListener } from "@angular/core";
    
    <div class="absolute top-1/2 transform -translate-y-1/2 -left-[9%]  w-[60%] lg:w-[65%] p-5">
       <div  class="h-auto bg-[#112240]  p-5">
-         <h2 class="text-[#CCD6F6] text-xl mb-4">App Courses (Aprendizaje)</h2>
+         <h2 class="text-[#CCD6F6] text-xl mb-4">Map-Stamp</h2>
            <p class="text-[#6390B0]  text-sm md:text-sm lg:text-md xl:text-2xl" [ngStyle]="{'font-size': resoution_display, 'line-height' : resolution_display_height}">
-            Esta aplicación, desarrollada como parte de mi aprendizaje en React Native, ofrece una experiencia intuitiva y atractiva para los usuarios. A través de esta app, he aplicado conceptos fundamentales de React Native, como la gestión de estado, la navegación entre pantallas y el uso de componentes reutilizables. Este proyecto no solo me ha permitido mejorar mis habilidades técnicas, sino que también me ha enseñado sobre el diseño de interfaces y la optimización del rendimiento en aplicaciones móviles.
-           <a class="text-blue-500 " href="https://maps-stamp.vercel.app/map/asdn">Link Page </a>
+           Map-Stamp está integrado con el sistema Stamp, lo que permite automatizar procesos y notificaciones relacionados con las obras. Esta integración facilita que los solicitantes visualicen sus certificados de obras notificadas y, del lado administrativo, ofrece un mapa interactivo para gestionar y monitorear las obras en proceso.           <a class="text-blue-500 " href="https://maps-stamp.vercel.app/map/asdn">Link Page </a>
           </p>
          </div>
          <p class="text-white text-md text-start font-bold">NextJs, TypeScript, Tailwind CSS</p>
