@@ -49,6 +49,8 @@ import { Component, HostListener } from "@angular/core";
        <img class="w-62 h-54 object-cover  flex-none" src="assets/img/login-react-native.png" alt="Imagen del teatro">
        <img class="w-62 h-54 object-cover  flex-none" src="assets/img/home-react-native.png" alt="Imagen del teatro">
        <img class="w-62 h-54 object-cover  flex-none" src="assets/img/cart-react-native.png" alt="Imagen del teatro">
+       <img class="w-62 h-54 object-cover  flex-none" src="assets/img/profile.png" alt="Imagen del teatro">
+       <img class="w-62 h-54 object-cover  flex-none" src="assets/img/CartBuy.png" alt="Imagen del teatro">
      </div>
    </div>
    
@@ -63,6 +65,35 @@ import { Component, HostListener } from "@angular/core";
          <p class="text-white text-md text-end font-bold">React Native, JavaScript, Tailwind CSS</p>
    </div>
  </div>
+
+ 
+  <div class="relative mb-[5rem] mr-[10rem]"> 
+    
+   <div class="relative w-[50%] xl:w-[60%] h-full overflow-hidden ml-[48%] mr-[20%] ">
+     <div 
+       class="carousel flex transition-transform duration-700 ease-in-out" 
+       [ngStyle]="{'transform': 'translateX(' + translateXtwo + '%)'}"
+       style="width: 100%;" 
+      >
+       <img class="w-78 h-78  object-cover  flex-none" src="assets/img/modal-map-stamp.png" alt="Imagen del teatro">
+       <img class="w-78 h-78  object-cover  flex-none" src="assets/img/login-map-stamp.png" alt="Imagen del teatro">
+       <img class="w-78 h-78  object-cover  flex-none" src="assets/img/moreinfo-map-stamp.png" alt="Imagen del teatro">
+       <img class="w-78 h-78  object-cover  flex-none" src="assets/img/pagemap-map-stamp.png" alt="Imagen del teatro">
+
+     </div>
+   </div>
+   
+   <div class="absolute top-1/2 transform -translate-y-1/2 -left-[9%]  w-[60%] lg:w-[65%] p-5">
+      <div  class="h-auto bg-[#112240]  p-5">
+         <h2 class="text-[#CCD6F6] text-xl mb-4">App Courses (Aprendizaje)</h2>
+           <p class="text-[#6390B0]  text-sm md:text-sm lg:text-md xl:text-2xl" [ngStyle]="{'font-size': resoution_display, 'line-height' : resolution_display_height}">
+            Esta aplicación, desarrollada como parte de mi aprendizaje en React Native, ofrece una experiencia intuitiva y atractiva para los usuarios. A través de esta app, he aplicado conceptos fundamentales de React Native, como la gestión de estado, la navegación entre pantallas y el uso de componentes reutilizables. Este proyecto no solo me ha permitido mejorar mis habilidades técnicas, sino que también me ha enseñado sobre el diseño de interfaces y la optimización del rendimiento en aplicaciones móviles.
+           <a class="text-blue-500 " href="https://maps-stamp.vercel.app/map/asdn">Link Page </a>
+          </p>
+         </div>
+         <p class="text-white text-md text-start font-bold">NextJs, TypeScript, Tailwind CSS</p>
+     </div>
+  </div>
 </div>
 
 
@@ -105,9 +136,17 @@ export class ProjectComponent{
   }
 
   translateX: number = 0; 
+  translateXtwo: number = 0; 
+
   currentSlide: number = 0; 
-  totalSlides: number = 4; 
+  currentSlidetwo: number = 0;
+   
+  totalSlides: number = 6; 
+  totalSlidesTwo: number = 4;
+
+  intervalIdtwo: any;
   intervalId: any;
+
 
 
   ngOnDestroy(): void {
@@ -118,6 +157,11 @@ export class ProjectComponent{
     this.intervalId = setInterval(() => {
       this.currentSlide = (this.currentSlide + 1) % this.totalSlides; 
       this.translateX = -this.currentSlide * 100; 
+    }, 3000); 
+
+    this.intervalIdtwo = setInterval(() => {
+      this.currentSlidetwo = (this.currentSlidetwo + 1) % this.totalSlidesTwo; 
+      this.translateXtwo = -this.currentSlidetwo * 100; 
     }, 3000); 
   }
 
