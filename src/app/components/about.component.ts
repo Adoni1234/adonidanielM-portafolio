@@ -48,7 +48,10 @@ import { Component } from "@angular/core";
                                 <i class="fa-solid fa-code text-sm"></i> PHP
                             </h2>
                             <h2 class="text-lg text-white mb-2">
-                                <i class="fa-solid fa-code text-sm"></i> Next js
+                                <i class="fa-solid fa-code text-sm"></i> Next.Js
+                            </h2>
+                            <h2 class="text-lg text-white mb-2">
+                                <i class="fa-solid fa-code text-sm"></i> NestJs
                             </h2>
                         </div>
                     </div>
