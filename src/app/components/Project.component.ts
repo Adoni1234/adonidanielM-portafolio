@@ -93,6 +93,35 @@ import { Component, HostListener } from "@angular/core";
          <p class="text-white text-md text-start font-bold">NextJs, TypeScript, Tailwind CSS</p>
      </div>
   </div>
+
+  <div class="relative mb-[5rem] mr-[10rem] mt-[20rem]"> 
+   <div class="relative e w-[50%] xl:w-[60%] h-full mr-[50%] overflow-hidden  rounded-xl">
+     <div 
+       class="carousel flex transition-transform duration-700 ease-in-out" 
+       [ngStyle]="{'transform': 'translateX(' + translateXtwo + '%)'}"
+       style="width: 100%;" 
+     >
+       <img class="w-full h-78 object-cover  flex-none" src="assets/img/imgLoterry1.png" alt="Imagen del teatro">
+       <img class="w-full h-78 object-cover  flex-none" src="assets/img/imgLottery2.png" alt="Imagen del teatro">
+       <img class="w-full h-78 object-cover  flex-none" src="assets/img/imgLottery3.png" alt="Imagen del teatro">
+       <img class="w-full h-78 object-cover  flex-none" src="assets/img/imgLottery3.png" alt="Imagen del teatro">
+
+
+     </div>
+   </div>
+   
+   <div class="absolute top-1/2 transform -translate-y-1/2 left-[44%]  w-[60%] lg:w-[60%] p-5">
+      <div  class="h-auto bg-[#112240]  p-5">
+         <h2 class="text-[#CCD6F6] text-xl mb-4">Lottery Result (En conjunto)</h2>
+           <p class="text-[#6390B0]  text-sm md:text-sm lg:text-md xl:text-2xl" [ngStyle]="{'font-size': resoution_display, 'line-height' : resolution_display_height}">
+           Desarrollé junto a un compañero una página de resultados de lotería, combinando Next.js y Python. Utilizamos Next.js para construir una interfaz de usuario clara y eficiente que permitiera a los usuarios acceder rápidamente a los resultados de diversas loterías. Python se encargó del backend, gestionando la obtención y procesamiento de datos en tiempo real para mantener la información siempre actualizada y precisa     <a class="text-blue-500 " href="https://loteriahoy.com.do/">Link Page </a>      </p>
+         </div>
+         <p class="text-white text-md text-end font-bold">Next.js, TypeScript, Tailwind CSS, Python</p>
+   </div>
+ </div>
+
+
+  
 </div>
 
 
@@ -139,6 +168,7 @@ export class ProjectComponent{
 
   currentSlide: number = 0; 
   currentSlidetwo: number = 0;
+
    
   totalSlides: number = 6; 
   totalSlidesTwo: number = 4;
